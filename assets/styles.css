@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.left-column {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #f0f0f0;  
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.menu-container {
+    margin-bottom: 10px;
+}
+
+.right-column {
+    margin-left: 150px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.theme-switcher-container {
+    margin-top: 180px;
+}
+
+.graph-container {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+#agriarea,
+#agrinputs,
+#agricul,
+#agripractice {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .left-column {
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .right-column {
+        margin-left: 0;
+    }
+
+    .graph-container {
+        width: 100%;
+    }
+}
